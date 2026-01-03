@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.DataFrame({
+    'Subject': ['Math', 'Science', 'English', 'History'],
+    'Marks': [88, 75, 90, 70]
+})
+plt.bar(df['Subject'], df['Marks'])
+plt.show()
